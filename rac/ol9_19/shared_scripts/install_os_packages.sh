@@ -62,6 +62,8 @@ dnf install -y libnsl.i686
 dnf install -y libnsl2
 dnf install -y libnsl2.i686
 
+# Added by Nikola 18.05.2026.
+dnf upgrade -y openssh openssh-server
 
 echo "******************************************************************************"
 echo "Firewall." `date`
