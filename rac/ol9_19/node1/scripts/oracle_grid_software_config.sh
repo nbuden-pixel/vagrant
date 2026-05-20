@@ -12,7 +12,7 @@ ${GRID_HOME}/gridSetup.sh -silent -executeConfigTools \
         oracle.install.asm.OSDBA=dba \
         oracle.install.asm.OSASM=dba \
         oracle.install.crs.config.scanType=LOCAL_SCAN \
-        oracle.install.crs.config.gpnp.scanName=${SCAN_NAME} \
+        oracle.install.crs.config.gpnp.scanName=${FQ_SCAN_NAME} \
         oracle.install.crs.config.gpnp.scanPort=${SCAN_PORT} \
         oracle.install.crs.config.ClusterConfiguration=STANDALONE \
         oracle.install.crs.config.configureAsExtendedCluster=false \
